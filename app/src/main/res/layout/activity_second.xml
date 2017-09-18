@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+
+        />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="34dp"
+        android:layout_height="20dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="180dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="35dp"
+        android:layout_height="65dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:src="@drawable/gold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:src="@drawable/earn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:scaleType="fitXY"
+        />
+
+    <sric.iss.whu.cutviewdemo.TestView
+        android:id="@+id/testView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></sric.iss.whu.cutviewdemo.TestView>
+</RelativeLayout>
